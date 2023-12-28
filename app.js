@@ -20,7 +20,7 @@ app.use(express.json());
 
 const routes = require("./routes/routes.js");
 
-app.use("/controller", routes);
+app.use("/", routes);
 
 app.all("*", (req, res, next) => {
   res.json({
