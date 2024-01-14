@@ -1,0 +1,16 @@
+#dev node modules
+node_modules
+
+#config file
+config/config.env
+
+#Dockerfiles
+Dockerfile
+.dockerignore
+
+#package files
+package-lock.json
+
+#git files
+.git
+.gitignore
